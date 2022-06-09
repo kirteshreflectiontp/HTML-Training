@@ -4,12 +4,12 @@
     <title>Generaladmissionform.html</title>
 </head>
 <body>
-    <h2><strong>General Admission Registration</strong></h2>
     <table>
+        <tr><td align="right" ><h2><strong>General Admission Registration</strong></h2></td></tr>
         <tr>
             <td>
                 <form>
-                    <table cellspacing="20">
+                    <table cellspacing="20" >
                         <tr>
                             <td><label>Name</label></td>
                             <td><input type="text" placeholder="Full Name"></td>
@@ -22,6 +22,10 @@
                             <td><label>Gender</label></td>
                             <td><input type="radio" name="Gender" value="Male"><label>Male</label>
                             <input type="radio" name="Gender" value="Female"><label>Female</label></td>
+                        </tr>
+                        <tr>
+                            <td><label>Phone</label></td>
+                            <td><input type="number"></td>
                         </tr>
                         <tr>
                             <td><label>Emergency Contact</label></td>
@@ -38,7 +42,10 @@
                         </tr>
                         <tr>
                             <td>What is your room preference?</td>
+                            
                         <td>
+                            <br/>
+                            <br/>
                             <input type="radio" name="room" value="single Room"><label>Single Room</label><br/>
                            <input type="radio" name="room" value="shared Room"><label>Shared Room</label><br/>
                            <input type="radio" name="room" value="no room needed"><label>No Room Needed</label>
@@ -48,7 +55,9 @@
                     </table>
                 </form>  
             </td>
-            <td>
+
+         <td>
+             <form>
                 <table cellspacing="20">
                     <tr>
                         <td>
@@ -89,8 +98,8 @@
                         </td>
                     </tr>
                 </table>
-                
-            </td>
+            </form>
+          </td>
         </tr>
     </table>
 </body>
