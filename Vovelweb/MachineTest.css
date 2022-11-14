@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    background-color: #ffffff;
+    width: 1920px;
+}
+.Header_bg{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.Header_bg_shape{
+    float: right;
+    width: 1205px;
+    height: 830px;
+    background-image: linear-gradient(45deg, #ff6060 0%, #ffd632 100%, #ffd632 100%);
+    border-radius: 0px 0px 0px 0px;
+}
+.Inside_header_bg_shape{
+    opacity: 0.078;
+}
+.header_section{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+nav{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+.nav_list {
+    margin: 0px 10px;
+    font-size: 14px;
+letter-spacing: 1px;
+color: #ffffff;
+padding: 15px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+width: 180px;
+height: 48px;
+border-radius: 24px;
+border: none;
+background-color: transparent;
+}
+.nav_list:hover{
+background-color: #1a1b29;
+}
+.logo_one{
+    width: 73px;
+height: 38px;
+border-radius: 3px;
+background-image: linear-gradient(0deg, #ff6060 0%, #ffd632 100%, #ffd632 100%);
+
+}
+.logo_section{
+    display: flex;
+}
+.logo_two{
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Header_buttons{
+display: flex;
+justify-content: space-between;
+}
+.Header_button_one{
+    font-size: 18px;
+color: #ffb424;
+background-color: #ffffff;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+width: 220px;
+height: 54px;
+border: none;
+}
+.Header_button_one:hover{
+    opacity: 0.3;
+background-color:#ffb424;
+border-radius: 27px;
+}
+.Intro_one{
+font-size: 60px;
+color: #1a1b29;
+font-weight: 800;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Intro_two{
+    font-size: 80px;
+    color: #ffb424;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Intro_section{
+    width: 600px;
+    margin-top: 300px;
+}
+.Intro_des{
+    margin: 15px 0px;
+    width: 600px;
+height: 79px;
+font-size: 16px;
+line-height: 30px;
+color: #6b6b87;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Intro_social{
+    position: absolute;
+    top: 100px;
+    right: -100px;
+}
+.girl_img{
+    width: 464px;
+    height: 697px;
+}
+.icon_div{
+    background-color:  transparent;
+}
+.about_us_section{
+    display: flex;
+    width: 1170px;
+    margin: 100px 25%;
+    
+}
+.About_us_image{
+    width: 497px;
+    height: 650px;
+    position: absolute;
+    bottom: 0px;
+}
+.About_us_image_section{
+    width: 496px;
+height: 550px;
+background-image: linear-gradient(45deg, #cc4d4d 0%, #ccab28 100%, #ccab28 100%);
+margin-right: 50px;
+position: relative;
+}
+.Who_AM_I{
+    font-size: 18px;
+letter-spacing: 1px;
+color: #ffb424;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+}
+.About_me{
+    font-size: 38px;
+color: #1a1b29;
+font-weight: 800;
+font-family: Arial, Helvetica, sans-serif;
+}
+.about_me_Des{
+    width: 570px;
+height: 312px;
+font-size: 16px;
+line-height: 30px;
+color: #6b6b87;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+}
+.video_clip{
+    width: 550px;
+height: 310px;
+border-radius: 18px;
+background-color: #191b29;
+margin-top: 10px;
+}
+.strenghts{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffb424;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    font-size: 38px;
+    color: #1a1b29;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services_des{
+    width: 570px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6b6b87;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section_three{
+    margin: 50px 25%;
+    display: flex;
+}
+.services_div{
+    margin-left: 50px;
+}
+.services_sub_div{
+    display: flex;
+    text-align: center;
+}
+.skill{
+    font-size: 18px;
+    line-height: 38px;
+    color: #39394f;
+    font-weight: 600;
+    font-family: a;
+    text-align: center;
+}
+.skills_des{
+    width: 224px;
+    height: 98px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6b6b87;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.learn_more{
+    width: 224px;
+    height: 98px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffb424;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.skill_badge{
+    margin-left: 65px;
+    width: 88px;
+height: 80px;
+background-image: linear-gradient(0deg, #477fff 0%, #85aaff 100%);
+}

@@ -1,0 +1,616 @@
+body {
+    display: block;
+    height: 100vh;
+}
+
+.parent {
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1300px;
+
+}
+
+.first-section {
+    width: 94%;
+}
+
+.logoes {
+    margin-right: 311px;
+}
+
+.logoeset {
+    margin: 0 15px;
+}
+
+.logoeset a {
+    color: aliceblue;
+}
+
+.downbtn {
+    border-radius: 25px !important;
+}
+
+.first-inner-section {
+    width: 100%;
+    max-width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro p {
+    position: absolute;
+    top: 477px;
+    left: 124px;
+}
+
+.layer-image {
+    width: 100%;
+    max-width: 1014px;
+    position: absolute;
+    right: 0;
+    /* height: 497px; */
+}
+
+.girl-image {
+    top: 105px;
+    position: absolute;
+    right: 262px;
+    height: 593px;
+}
+
+
+.second-section {
+    width: 100%;
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.second-girl {
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.greeting {
+    position: absolute;
+    top: 288px;
+    left: 124px;
+}
+
+.webdeve {
+    left: 124px;
+    position: absolute;
+    top: 358px;
+    width: 373px;
+}
+
+.sticker {
+    top: 51px;
+    position: absolute;
+    width: 882px;
+    left: -37px;
+}
+
+.react-par {
+    position: relative;
+    top: 552px;
+    left: 770px;
+    height: 150px;
+    width: 412px;
+
+}
+
+.react {
+    top: 26px;
+    border-radius: 64px;
+    position: absolute;
+    left: -5px;
+    box-shadow: 0px 1px 4px 0px grey;
+    width: 401px;
+}
+
+
+
+
+.embedvideo {
+    border-radius: 2px;
+    border: 1px solid green;
+}
+
+.social-parent {
+    max-width: 566px;
+    top: 30px;
+    border-radius: 103px;
+    position: absolute;
+    left: -2px;
+    height: -50px;
+    z-index: 2;
+    width: 100%;
+    /* padding: 17px 25px 10px 10px; */
+}
+
+.social-parent li {
+    display: inline-block;
+    pad: 0 10px;
+    list-style: none;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.fbok {
+    color: blue;
+}
+
+.ibok {
+    color: red;
+}
+
+
+.lbok {
+    color: cyan;
+}
+
+.tbok {
+    color: blue;
+}
+
+.pbok {
+    color: red;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------second section----------------------------------*/
+
+.second-section {
+    top: 590px;
+    max-width: 1300px;
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 508px;
+
+
+
+}
+
+.second-section-image {
+    position: absolute;
+    top: 0;
+    left: -227px;
+    height: 508px;
+    max-width: 692px;
+}
+
+.left-second {
+    max-width: 650px;
+
+    position: absolute;
+    width: 50%;
+
+
+}
+
+
+.right-second {
+    max-width: 650px;
+
+    position: absolute;
+    width: 50%;
+    right: 103px;
+}
+
+.identity {
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------THIRD section----------------------------------*/
+
+
+
+
+
+.third-section {
+    left: 121px;
+    top: 1346px;
+    width: 72%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+    position: absolute;
+}
+
+.third-left {
+
+    max-width: 550px;
+    width: 100%;
+}
+
+.third-right {
+
+    max-width: 550px;
+    width: 100%;
+
+}
+
+
+
+.embedvideo {
+    height: 227px;
+    max-width: 447px;
+    border-radius: 19px;
+    border: 1px solid green;
+    margin: 42px 0;
+
+
+
+}
+
+.third-left-inner {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.service-image {
+    margin: 15px auto;
+}
+
+.display-f {
+    display: flex;
+}
+
+.hex {
+    width: 100%;
+    max-width: 200px;
+    margin: 15px auto;
+    max-width: 103px;
+
+}
+
+.crad {
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+}
+
+.hex5 {
+    margin: 10px 0;
+}
+
+
+
+
+
+/*----------------------------RESPONSIVE CSS FOR ALL MEDI QUERY---------------------------*/
+
+/*-------------SMALL DEVICESS----------------*/
+/*
+@media screen and (max-width: 576px) {
+    .layer-image {
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .girl-image {
+        top: 69px;
+        position: absolute;
+        right: 151px;
+        height: 327px;
+    }
+
+    .logoes {
+        margin-right: 333px;
+        max-width: 115px;
+    }
+
+    .logoeset a {
+        color: black;
+    }
+
+    .intro {
+        position: absolute;
+        top: 185px;
+    }
+
+    .react-par {
+        position: relative;
+        top: 261px;
+        left: 107px;
+        height: 150px;
+        width: 384px;
+    }
+
+    .intro {
+        position: relative;
+        top: -18px;
+    }
+
+    .intro p {
+        position: absolute;
+        top: 477px;
+        left: 124px;
+    }
+
+    .right-second {
+        top: 515px;
+    }
+
+    .right-second {
+        width: 100%;
+        top: 515px;
+        left: 12px;
+    }
+}
+
+/* right: 10px; */
+
+/*.third-section {
+    flex-direction: column;
+    top: 1661px;
+    left: 44px;
+}
+.display-f {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------MEDIUM DEVICESS----------------*/
+
+
+
+/*
+
+
+@media  screen and (max-width: 768px) {
+
+
+    .layer-image {
+        width: 78%;
+        max-width: 883px;
+        right: 0;
+        height: 359px;
+    }
+
+    .girl-image {
+        top: -14px;
+        right: 163px;
+        height: 377px;
+    }
+
+    .logoes {
+        margin-top: 21px;
+        width: 24%;
+        margin-right: 526px;
+    }
+
+    .sticker {
+        height: 683px;
+        top: -76px;
+        width: 505px;
+        left: -10px;
+
+    }
+
+    .greeting {
+        width: 25%;
+    }
+
+    .webdeve {
+        top: 339px;
+    }
+
+    .logoeset a {
+        color: black;
+    }
+
+    .intro {
+        position: relative;
+    }
+
+    .react-par {
+        top: 290px;
+        left: 247px;
+        position: absolute;
+
+    }
+
+    .right-second {
+        top: 497px;
+        right: 210px;
+        margin: 15px 0;
+    }
+
+    .second-section-image {
+        left: -120px;
+    }
+
+    .third-section {
+        top: 1884px;
+    }
+
+    .third-section,
+    .display-f {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .third-right,
+    .third-left-inner {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-image {
+        margin: 10px 104px 10px 0px;
+    }
+}
+
+
+
+
+/*-------------LARGE DEVICESS----------------*/
+/*
+@media only screen and (min-width: 992px) {}
+
+
+
+
+
+
+
+/*------------- EXTRA LARGE DEVICESS----------------*/
+
+
+/*
+@media screen and (max-width: 1200px) {
+    .intro {
+        left: -25px;
+        position: relative;
+    }
+
+    .logoeset {
+        margin: 0;
+        padding: 0 7px;
+    }
+
+    .layer-image {
+        max-width: 966px;
+    }
+
+    .react-par {
+        position: relative;
+        top: 535px;
+        left: 601px;
+        height: 150px;
+        width: 412px;
+    }
+
+    .girl-image {
+        top: 73px;
+        position: absolute;
+        right: 240px;
+        height: 593px;
+    }
+
+    .second-section {
+        top: 643px;
+        max-width: 1300px;
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 508px;
+    }
+    .third-section {
+        align-items: center;
+        justify-content: space-between;
+        left: 0px;
+        top: 1346px;
+        width: 72%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+    }
+    .third-left-inner{
+        display: flex;
+        align-items: center;
+    }
+.third-right{
+   
+        /* max-width: 550px; */
+  /*      width: 100%;
+        /* position: absolute; */
+  /*      margin-left: 120px;
+    }
+
+    .embedvideo{
+        margin: 42px 51px;
+    }
+    
+    .crad{
+        margin: 10px 25px;
+    }}*/
+    @media screen and (max-width:920px){
+
+        .layer-image{
+            height: 380px;
+            max-width: 680px;
+        }
+.girl-image{
+    height: 380px;
+    top: 0px;
+    right: 190px;
+}
+
+
+
+    }
+
+
+
+
+
+
+
